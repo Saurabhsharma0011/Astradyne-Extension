@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Astradyne</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="popup-root">
+    <div class="popup-header">
+      <span class="header-icon">
+        <img src="header.png" alt="Astradyne Extension Logo" width="32" height="32">
+      </span>
+      <span class="header-title">Astradyne Extension</span>
+    </div>
+    <div class="popup-content">
+      <h2 class="analyze-heading">Submit Screenshot</h2>
+      <p class="analyze-desc">Paste (Ctrl+V) or select a screenshot file to analyze your trading screen.</p>
+      <div id="dropzone" class="dropzone" tabindex="0">
+        <span id="dropzone-text">Paste or click to select an image</span>
+        <input type="file" id="fileInput" accept="image/png, image/jpeg" style="display:none;" />
+      </div>
+      <div id="imagePreviewContainer" style="display:none;">
+        <img id="imagePreview" class="image-preview" src="" alt="Screenshot preview" />
+      </div>
+      <button id="analyzeBtn" class="primary-button" style="display:none;">Analyze</button>
+      
+      <!-- New chat interface -->
+      <div id="chatContainer" class="chat-container" style="display:none;">
+        <div id="output" class="chat-messages"></div>
+      </div>
+    </div>
+  </div>
+  <script src="gpt.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
