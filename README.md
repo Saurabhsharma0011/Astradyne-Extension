@@ -1,4 +1,3 @@
-
 **🌌 Astradyne Extension**
 *Send a trade screenshot — get AI-powered buy/sell advice instantly.*
 
