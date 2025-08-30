@@ -35,4 +35,3 @@ Astradyne is an intelligent browser extension for crypto traders. Instead of com
 Full installation guide, model training data, and community support.
 
 > ✨ Make smarter trades with just a screenshot.
-
